@@ -23,7 +23,7 @@ const Product = () => {
       </div>
       <div className="right">
         <h1>Title</h1>
-        <span>$199</span>
+        <span className="price">$199</span>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -41,7 +41,7 @@ const Product = () => {
         <button className="add">
           <AddShoppingCartIcon /> ADD TO CART
         </button>
-        <div className="link">
+        <div className="links">
           <div className="item">
             <FavoriteBorderIcon /> ADD TO WISH LIST
           </div>
@@ -55,7 +55,7 @@ const Product = () => {
           <span>Tag: T-Shirt, Women, Top</span>
         </div>
         <hr />
-        <div className="details">
+        <div className="info">
           <span>DESCRIPTION</span>
           <hr />
           <span>ADDITIONAL INFORMATION</span>
